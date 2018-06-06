@@ -23,6 +23,7 @@ void loop(){
       Serial.println("Motion detected!");
       // We only want to print on the output change, not state
       pirState = HIGH;
+      delay(300000);
     }
   } else {
     digitalWrite(ledPin, LOW); // turn LED OFF
